@@ -2,257 +2,238 @@ import React from 'react'
 
 const FeatureCard = () => {
   return (
-    <div className='px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white'>
-      <div className='grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12'>
-        <div>
-          <div className='relative flex justify-center items-center size-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl'>
-            <svg
-              className='flex-shrink-0 size-6 text-blue-600'
-              xmlns='http://www.w3.org/2000/svg'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              stroke-width='2'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-            >
-              <rect width='10' height='14' x='3' y='8' rx='2' />
-              <path d='M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4' />
-              <path d='M8 18h.01' />
-            </svg>
+    <section className='py-24 bg-white'>
+      <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+        <div className='mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:gap-y-0 lg:flex-row lg:justify-between max-md:max-w-lg max-md:mx-auto'>
+          <div className='relative w-full text-center lg:text-left lg:w-2/4'>
+            <h2 className='text-4xl font-bold text-gray-900 leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0'>
+              Enjoy the finest features with our products
+            </h2>
           </div>
-          <div className='mt-5'>
-            <h3 className='text-lg font-semibold text-gray-800'>Responsive</h3>
-            <p className='mt-1 text-gray-600'>
-              Responsive, and mobile-first project on the web
+          <div className='relative w-full text-center  lg:text-left lg:w-2/4'>
+            <p className='text-lg font-normal text-gray-500 mb-5'>
+              We provide all the advantages that can simplify all your financial
+              transactions without any further requirements
             </p>
+            <a
+              href='#'
+              className='flex flex-row items-center justify-center gap-2 text-base font-semibold text-indigo-600 lg:justify-start hover:text-indigo-700 '
+            >
+              Button CTA{' '}
+              <svg
+                width='20'
+                height='20'
+                viewBox='0 0 20 20'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <path
+                  d='M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5'
+                  stroke='#4F46E5'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                ></path>
+              </svg>
+            </a>
           </div>
         </div>
-        <div>
-          <div className='relative flex justify-center items-center size-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl'>
-            <svg
-              className='flex-shrink-0 size-6 text-blue-600'
-              xmlns='http://www.w3.org/2000/svg'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              stroke-width='2'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-            >
-              <path d='M20 7h-9' />
-              <path d='M14 17H5' />
-              <circle cx='17' cy='17' r='3' />
-              <circle cx='7' cy='7' r='3' />
-            </svg>
-          </div>
-          <div className='mt-5'>
-            <h3 className='text-lg font-semibold text-gray-800'>
-              Customizable
-            </h3>
-            <p className='mt-1 text-gray-600'>
-              Components are easily customized and extendable
+        <div className='flex justify-center items-center  gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8'>
+          <div className='group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600'>
+            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 '>
+              <svg
+                width='30'
+                height='30'
+                viewBox='0 0 30 30'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <path
+                  d='M24.7222 11.6667V7.22225C24.7222 5.99495 23.7273 5 22.5 5H4.72222C3.49492 5 2.5 5.99492 2.5 7.22222V22.7778C2.5 24.0051 3.49492 25 4.72222 25H22.5C23.7273 25 24.7222 24.005 24.7222 22.7777V17.7778M20.8333 17.7778H25.2778C26.5051 17.7778 27.5 16.7829 27.5 15.5556V13.8889C27.5 12.6616 26.5051 11.6667 25.2778 11.6667H20.8333C19.606 11.6667 18.6111 12.6616 18.6111 13.8889V15.5556C18.6111 16.7829 19.606 17.7778 20.8333 17.7778Z'
+                  stroke='#4F46E5'
+                  stroke-width='2'
+                ></path>
+              </svg>
+            </div>
+            <h4 className='text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white'>
+              Easy Payment
+            </h4>
+            <p className='text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white'>
+              We Provide Various Methods For You To Carry Out All Transactions
+              Related To Your Finances
             </p>
           </div>
-        </div>
-        <div>
-          <div className='relative flex justify-center items-center size-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl'>
-            <svg
-              className='flex-shrink-0 size-6 text-blue-600'
-              xmlns='http://www.w3.org/2000/svg'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              stroke-width='2'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-            >
-              <path d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z' />
-              <path d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z' />
-            </svg>
-          </div>
-          <div className='mt-5'>
-            <h3 className='text-lg font-semibold text-gray-800'>
-              Documentation
-            </h3>
-            <p className='mt-1 text-gray-600'>
-              Every component and plugin is well documented
+          <div className='group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600'>
+            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 '>
+              <svg
+                width='30'
+                height='30'
+                viewBox='0 0 30 30'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <path
+                  d='M14.375 15.8571C16.1009 15.8571 17.5 14.458 17.5 12.7321C17.5 11.0062 16.1009 9.6071 14.375 9.6071C12.6491 9.6071 11.25 11.0062 11.25 12.7321C11.25 14.458 12.6491 15.8571 14.375 15.8571ZM14.375 15.8571V20.8571M3.75 13.2264V15.2343C3.75 17.6868 3.75 18.9131 4.27747 19.9685C4.80493 21.0239 5.78567 21.76 7.74715 23.2322L8.57248 23.8516C11.4626 26.0208 12.9077 27.1054 14.5753 27.1054C16.243 27.1054 17.688 26.0208 20.5782 23.8516L21.4035 23.2322C23.365 21.76 24.3457 21.0239 24.8732 19.9685C25.4006 18.9131 25.4006 17.6868 25.4006 15.2343V13.2264C25.4006 9.95932 25.4006 8.32576 24.546 7.05852C23.6913 5.79128 22.1768 5.17918 19.1477 3.95499L18.3223 3.62144C16.4724 2.87381 15.5475 2.5 14.5753 2.5C13.6032 2.5 12.6782 2.87381 10.8283 3.62144L10.003 3.95499C6.97389 5.17919 5.45934 5.79128 4.60467 7.05852C3.75 8.32576 3.75 9.95932 3.75 13.2264Z'
+                  stroke='#4F46E5'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                ></path>
+              </svg>
+            </div>
+            <h4 className='text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white'>
+              Safe Transaction
+            </h4>
+            <p className='text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white'>
+              We have the most up-to-date security to support the security of
+              all our customers in carrying out all transactions.
             </p>
           </div>
-        </div>
-
-        <div>
-          <div className='relative flex justify-center items-center size-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl'>
-            <svg
-              className='flex-shrink-0 size-6 text-blue-600'
-              xmlns='http://www.w3.org/2000/svg'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              stroke-width='2'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-            >
-              <path d='M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z' />
-              <path d='M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1' />
-            </svg>
+          <div className='group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600'>
+            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 '>
+              <svg
+                width='30'
+                height='30'
+                viewBox='0 0 30 30'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <path
+                  d='M15.0067 10V15.6652C15.0067 16.0358 15.1712 16.3873 15.4556 16.6248L18.75 19.375M15 27.5C8.09644 27.5 2.5 21.9036 2.5 15C2.5 8.09644 8.09644 2.5 15 2.5C21.9036 2.5 27.5 8.09644 27.5 15C27.5 21.9036 21.9036 27.5 15 27.5Z'
+                  stroke='#4F46E5'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                ></path>
+              </svg>
+            </div>
+            <h4 className='text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white'>
+              Fast Customer Service{' '}
+            </h4>
+            <p className='text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white'>
+              Provide Customer Service For Those Of You Who Have Problems 24
+              Hours A Week
+            </p>
           </div>
-          <div className='mt-5'>
-            <h3 className='text-lg font-semibold text-gray-800'>
-              24/7 Support
-            </h3>
-            <p className='mt-1 text-gray-600'>
-              Contact us 24 hours a day, 7 days a week
+          <div className='group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600'>
+            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 '>
+              <svg
+                width='30'
+                height='30'
+                viewBox='0 0 30 30'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <path
+                  d='M10 14.7875L13.0959 17.8834C13.3399 18.1274 13.7353 18.1275 13.9794 17.8838L20.625 11.25M15 27.5C8.09644 27.5 2.5 21.9036 2.5 15C2.5 8.09644 8.09644 2.5 15 2.5C21.9036 2.5 27.5 8.09644 27.5 15C27.5 21.9036 21.9036 27.5 15 27.5Z'
+                  stroke='#4F46E5'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                ></path>
+              </svg>
+            </div>
+            <h4 className='text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white'>
+              Quick Transaction
+            </h4>
+            <p className='text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white'>
+              We provide faster transaction speeds than competitors, so money
+              arrives and is received faster.
             </p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    // <div classNameName='bg-gray-50 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto'>
+    //   <div classNameName='grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-12'>
+    //     <div classNameName='text-center border border-[#77B0AA] rounded-xl py-12'>
+    //       <div classNameName='flex justify-center items-center size-12 bg-gray-50 border border-gray-200 rounded-full mx-auto'>
+    //         <svg
+    //           classNameName='flex-shrink-0 size-5 text-gray-600'
+    //           xmlns='http://www.w3.org/2000/svg'
+    //           width='24'
+    //           height='24'
+    //           viewBox='0 0 24 24'
+    //           fill='none'
+    //           stroke='currentColor'
+    //           stroke-width='2'
+    //           stroke-linecap='round'
+    //           stroke-linejoin='round'
+    //         >
+    //           <rect width='10' height='14' x='3' y='8' rx='2' />
+    //           <path d='M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4' />
+    //           <path d='M8 18h.01' />
+    //         </svg>
+    //       </div>
+    //       <div classNameName='mt-3'>
+    //         <h3 classNameName='text-lg font-semibold text-gray-800'>Responsive</h3>
+    //         <p classNameName='mt-1 text-gray-600'>
+    //           Responsive, and mobile-first project on the web
+    //         </p>
+    //       </div>
+    //     </div>
+
+    //     <div classNameName='text-center border border-[#77B0AA] rounded-xl py-12'>
+    //       <div classNameName='flex justify-center items-center size-12 bg-gray-50 border border-gray-200 rounded-full mx-auto'>
+    //         <svg
+    //           classNameName='flex-shrink-0 size-5 text-gray-600'
+    //           xmlns='http://www.w3.org/2000/svg'
+    //           width='24'
+    //           height='24'
+    //           viewBox='0 0 24 24'
+    //           fill='none'
+    //           stroke='currentColor'
+    //           stroke-width='2'
+    //           stroke-linecap='round'
+    //           stroke-linejoin='round'
+    //         >
+    //           <path d='M20 7h-9' />
+    //           <path d='M14 17H5' />
+    //           <circle cx='17' cy='17' r='3' />
+    //           <circle cx='7' cy='7' r='3' />
+    //         </svg>
+    //       </div>
+    //       <div classNameName='mt-3'>
+    //         <h3 classNameName='text-lg font-semibold text-gray-800'>
+    //           Customizable
+    //         </h3>
+    //         <p classNameName='mt-1 text-gray-600'>
+    //           Components are easily customized and extendable
+    //         </p>
+    //       </div>
+    //     </div>
+
+    //     <div classNameName='text-center border border-[#77B0AA] rounded-xl py-12'>
+    //       <div classNameName='flex justify-center items-center size-12 bg-gray-50 border border-gray-200 rounded-full mx-auto'>
+    //         <svg
+    //           classNameName='flex-shrink-0 size-5 text-gray-600'
+    //           xmlns='http://www.w3.org/2000/svg'
+    //           width='24'
+    //           height='24'
+    //           viewBox='0 0 24 24'
+    //           fill='none'
+    //           stroke='currentColor'
+    //           stroke-width='2'
+    //           stroke-linecap='round'
+    //           stroke-linejoin='round'
+    //         >
+    //           <path d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z' />
+    //           <path d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z' />
+    //         </svg>
+    //       </div>
+    //       <div classNameName='mt-3'>
+    //         <h3 classNameName='text-lg font-semibold text-gray-800'>
+    //           Documentation
+    //         </h3>
+    //         <p classNameName='mt-1 text-gray-600'>
+    //           Every component and plugin is well documented
+    //         </p>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   )
 }
 
 export default FeatureCard
-
-// <!-- Icon Blocks -->
-// <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-//   <!-- Grid -->
-//   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-//     <!-- Icon Block -->
-//     <div className="h-36 sm:h-56 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5">
-//       <!-- Icon -->
-//       <div className="flex justify-center items-center size-12 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg mx-auto">
-//         <svg className="flex-shrink-0 size-7 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="10" x="3" y="11" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" x2="8" y1="16" y2="16"/><line x1="16" x2="16" y1="16" y2="16"/></svg>
-//       </div>
-//       <!-- End Icon -->
-
-//       <div className="mt-3">
-//         <h3 className="text-sm sm:text-lg font-semibold text-gray-800">
-//           Creative minds
-//         </h3>
-//       </div>
-//     </div>
-//     <!-- End Icon Block -->
-
-//     <!-- Icon Block -->
-//     <div className="h-36 sm:h-56 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5">
-//       <!-- Icon -->
-//       <div className="flex justify-center items-center size-12 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg mx-auto">
-//         <svg className="flex-shrink-0 size-7 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
-//       </div>
-//       <!-- End Icon -->
-
-//       <div className="mt-3">
-//         <h3 className="text-sm sm:text-lg font-semibold text-gray-800">
-//           Effortless updates
-//         </h3>
-//       </div>
-//     </div>
-//     <!-- End Icon Block -->
-
-//     <!-- Icon Block -->
-//     <div className="h-36 sm:h-56 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5">
-//       <!-- Icon -->
-//       <div className="flex justify-center items-center size-12 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg mx-auto">
-//         <svg className="flex-shrink-0 size-7 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-//       </div>
-//       <!-- End Icon -->
-
-//       <div className="mt-3">
-//         <h3 className="text-sm sm:text-lg font-semibold text-gray-800">
-//           Strong empathy
-//         </h3>
-//       </div>
-//     </div>
-//     <!-- End Icon Block -->
-
-//     <!-- Icon Block -->
-//     <div className="h-36 sm:h-56 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5">
-//       <!-- Icon -->
-//       <div className="flex justify-center items-center size-12 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg mx-auto">
-//         <svg className="flex-shrink-0 size-7 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
-//       </div>
-//       <!-- End Icon -->
-
-//       <div className="mt-3">
-//         <h3 className="text-sm sm:text-lg font-semibold text-gray-800">
-//           Conquer the best
-//         </h3>
-//       </div>
-//     </div>
-//     <!-- End Icon Block -->
-
-//     <!-- Icon Block -->
-//     <div className="h-36 sm:h-56 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5">
-//       <!-- Icon -->
-//       <div className="flex justify-center items-center size-12 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg mx-auto">
-//         <svg className="flex-shrink-0 size-7 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-//       </div>
-//       <!-- End Icon -->
-
-//       <div className="mt-3">
-//         <h3 className="text-sm sm:text-lg font-semibold text-gray-800">
-//           Designing for people
-//         </h3>
-//       </div>
-//     </div>
-//     <!-- End Icon Block -->
-
-//     <!-- Icon Block -->
-//     <div className="h-36 sm:h-56 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5">
-//       <!-- Icon -->
-//       <div className="flex justify-center items-center size-12 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg mx-auto">
-//         <svg className="flex-shrink-0 size-7 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z"/></svg>
-//       </div>
-//       <!-- End Icon -->
-
-//       <div className="mt-3">
-//         <h3 className="text-sm sm:text-lg font-semibold text-gray-800">
-//           Simple and affordable
-//         </h3>
-//       </div>
-//     </div>
-//     <!-- End Icon Block -->
-
-//     <!-- Icon Block -->
-//     <div className="h-36 sm:h-56 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5">
-//       <!-- Icon -->
-//       <div className="flex justify-center items-center size-12 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg mx-auto">
-//         <svg className="flex-shrink-0 size-7 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/></svg>
-//       </div>
-//       <!-- End Icon -->
-
-//       <div className="mt-3">
-//         <h3 className="text-sm sm:text-lg font-semibold text-gray-800">
-//           Get freelance work
-//         </h3>
-//       </div>
-//     </div>
-//     <!-- End Icon Block -->
-
-//     <!-- Icon Block -->
-//     <div className="h-36 sm:h-56 flex flex-col justify-center border border-gray-200 rounded-xl text-center p-4 md:p-5">
-//       <!-- Icon -->
-//       <div className="flex justify-center items-center size-12 bg-gradient-to-br from-blue-600 to-violet-600 rounded-lg mx-auto">
-//         <svg className="flex-shrink-0 size-7 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"/></svg>
-//       </div>
-//       <!-- End Icon -->
-
-//       <div className="mt-3">
-//         <h3 className="text-sm sm:text-lg font-semibold text-gray-800">
-//           Sell your goods
-//         </h3>
-//       </div>
-//     </div>
-//     <!-- End Icon Block -->
-//   </div>
-//   <!-- End Grid -->
-// </div>
-// <!-- End Icon Blocks -->
