@@ -10,16 +10,16 @@ const FeatureCard = () => {
               Enjoy the finest features with our products
             </h2>
           </div>
-          <div className='relative w-full text-center  lg:text-left lg:w-2/4'>
+          <div className='relative w-full text-center lg:text-left lg:w-2/4'>
             <p className='text-lg font-normal text-gray-500 mb-5'>
               We provide all the advantages that can simplify all your financial
-              transactions without any further requirements
+              transactions without any further requirements.
             </p>
             <a
               href='#'
-              className='flex flex-row items-center justify-center gap-2 text-base font-semibold text-indigo-600 lg:justify-start hover:text-indigo-700 '
+              className='flex flex-row items-center justify-center gap-2 text-base font-semibold text-indigo-600 lg:justify-start hover:text-indigo-700'
             >
-              Button CTA{' '}
+              Button CTA
               <svg
                 width='20'
                 height='20'
@@ -38,9 +38,9 @@ const FeatureCard = () => {
             </a>
           </div>
         </div>
-        <div className='flex justify-center items-center  gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8'>
+        <div className='flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8'>
           <div className='group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600'>
-            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 '>
+            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14'>
               <svg
                 width='30'
                 height='30'
@@ -59,12 +59,12 @@ const FeatureCard = () => {
               Easy Payment
             </h4>
             <p className='text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white'>
-              We Provide Various Methods For You To Carry Out All Transactions
-              Related To Your Finances
+              We provide various methods for you to carry out all transactions
+              related to your finances.
             </p>
           </div>
           <div className='group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600'>
-            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 '>
+            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14'>
               <svg
                 width='30'
                 height='30'
@@ -90,7 +90,7 @@ const FeatureCard = () => {
             </p>
           </div>
           <div className='group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600'>
-            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 '>
+            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14'>
               <svg
                 width='30'
                 height='30'
@@ -99,7 +99,7 @@ const FeatureCard = () => {
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <path
-                  d='M15.0067 10V15.6652C15.0067 16.0358 15.1712 16.3873 15.4556 16.6248L18.75 19.375M15 27.5C8.09644 27.5 2.5 21.9036 2.5 15C2.5 8.09644 8.09644 2.5 15 2.5C21.9036 2.5 27.5 8.09644 27.5 15C27.5 21.9036 21.9036 27.5 15 27.5Z'
+                  d='M20.8333 16.25H24.1667C24.7384 16.25 25.2503 16.0127 25.6136 15.6145C25.9768 15.2163 26.154 14.6942 26.1042 14.1667L25.3925 6.77706C25.3207 5.96277 24.6306 5.3125 23.8114 5.3125H6.18857C5.3694 5.3125 4.67931 5.96277 4.60753 6.77706L3.8958 14.1667C3.84604 14.6942 4.0232 15.2163 4.38645 15.6145C4.74971 16.0127 5.26156 16.25 5.83333 16.25H9.16667M12.0833 19.1667H17.9167C18.8027 19.1667 19.5286 19.8926 19.5286 20.7786V23.0556C19.5286 24.7912 19.5286 25.6589 19.1243 26.2783C18.72 26.8977 18.1243 27.0833 16.9328 27.0833H13.0672C11.8757 27.0833 11.28 26.8977 10.8757 26.2783C10.4714 25.6589 10.4714 24.7912 10.4714 23.0556V20.7786C10.4714 19.8926 11.1973 19.1667 12.0833 19.1667Z'
                   stroke='#4F46E5'
                   stroke-width='2'
                   stroke-linecap='round'
@@ -108,131 +108,16 @@ const FeatureCard = () => {
               </svg>
             </div>
             <h4 className='text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white'>
-              Fast Customer Service{' '}
+              Secure Vault
             </h4>
             <p className='text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white'>
-              Provide Customer Service For Those Of You Who Have Problems 24
-              Hours A Week
-            </p>
-          </div>
-          <div className='group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-indigo-600'>
-            <div className='bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 '>
-              <svg
-                width='30'
-                height='30'
-                viewBox='0 0 30 30'
-                fill='none'
-                xmlns='http://www.w3.org/2000/svg'
-              >
-                <path
-                  d='M10 14.7875L13.0959 17.8834C13.3399 18.1274 13.7353 18.1275 13.9794 17.8838L20.625 11.25M15 27.5C8.09644 27.5 2.5 21.9036 2.5 15C2.5 8.09644 8.09644 2.5 15 2.5C21.9036 2.5 27.5 8.09644 27.5 15C27.5 21.9036 21.9036 27.5 15 27.5Z'
-                  stroke='#4F46E5'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                ></path>
-              </svg>
-            </div>
-            <h4 className='text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white'>
-              Quick Transaction
-            </h4>
-            <p className='text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white'>
-              We provide faster transaction speeds than competitors, so money
-              arrives and is received faster.
+              All your valuable assets are stored securely with the best
+              protection methods from us.
             </p>
           </div>
         </div>
       </div>
     </section>
-
-    // <div classNameName='bg-gray-50 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto'>
-    //   <div classNameName='grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-12'>
-    //     <div classNameName='text-center border border-[#77B0AA] rounded-xl py-12'>
-    //       <div classNameName='flex justify-center items-center size-12 bg-gray-50 border border-gray-200 rounded-full mx-auto'>
-    //         <svg
-    //           classNameName='flex-shrink-0 size-5 text-gray-600'
-    //           xmlns='http://www.w3.org/2000/svg'
-    //           width='24'
-    //           height='24'
-    //           viewBox='0 0 24 24'
-    //           fill='none'
-    //           stroke='currentColor'
-    //           stroke-width='2'
-    //           stroke-linecap='round'
-    //           stroke-linejoin='round'
-    //         >
-    //           <rect width='10' height='14' x='3' y='8' rx='2' />
-    //           <path d='M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4' />
-    //           <path d='M8 18h.01' />
-    //         </svg>
-    //       </div>
-    //       <div classNameName='mt-3'>
-    //         <h3 classNameName='text-lg font-semibold text-gray-800'>Responsive</h3>
-    //         <p classNameName='mt-1 text-gray-600'>
-    //           Responsive, and mobile-first project on the web
-    //         </p>
-    //       </div>
-    //     </div>
-
-    //     <div classNameName='text-center border border-[#77B0AA] rounded-xl py-12'>
-    //       <div classNameName='flex justify-center items-center size-12 bg-gray-50 border border-gray-200 rounded-full mx-auto'>
-    //         <svg
-    //           classNameName='flex-shrink-0 size-5 text-gray-600'
-    //           xmlns='http://www.w3.org/2000/svg'
-    //           width='24'
-    //           height='24'
-    //           viewBox='0 0 24 24'
-    //           fill='none'
-    //           stroke='currentColor'
-    //           stroke-width='2'
-    //           stroke-linecap='round'
-    //           stroke-linejoin='round'
-    //         >
-    //           <path d='M20 7h-9' />
-    //           <path d='M14 17H5' />
-    //           <circle cx='17' cy='17' r='3' />
-    //           <circle cx='7' cy='7' r='3' />
-    //         </svg>
-    //       </div>
-    //       <div classNameName='mt-3'>
-    //         <h3 classNameName='text-lg font-semibold text-gray-800'>
-    //           Customizable
-    //         </h3>
-    //         <p classNameName='mt-1 text-gray-600'>
-    //           Components are easily customized and extendable
-    //         </p>
-    //       </div>
-    //     </div>
-
-    //     <div classNameName='text-center border border-[#77B0AA] rounded-xl py-12'>
-    //       <div classNameName='flex justify-center items-center size-12 bg-gray-50 border border-gray-200 rounded-full mx-auto'>
-    //         <svg
-    //           classNameName='flex-shrink-0 size-5 text-gray-600'
-    //           xmlns='http://www.w3.org/2000/svg'
-    //           width='24'
-    //           height='24'
-    //           viewBox='0 0 24 24'
-    //           fill='none'
-    //           stroke='currentColor'
-    //           stroke-width='2'
-    //           stroke-linecap='round'
-    //           stroke-linejoin='round'
-    //         >
-    //           <path d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z' />
-    //           <path d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z' />
-    //         </svg>
-    //       </div>
-    //       <div classNameName='mt-3'>
-    //         <h3 classNameName='text-lg font-semibold text-gray-800'>
-    //           Documentation
-    //         </h3>
-    //         <p classNameName='mt-1 text-gray-600'>
-    //           Every component and plugin is well documented
-    //         </p>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   )
 }
 
