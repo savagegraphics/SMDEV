@@ -10,8 +10,8 @@ const Collection = () => {
           </h2>
 
           <p className='mx-auto max-w-screen-lg text-left text-gray-500 md:text-lg'>
-            Welcome to my portfolio! Here, you'll find projects showcasing my
-            skills as a MERN stack frontend developer. These projects
+            Welcome to my portfolio! Here, you&apos;ll find projects showcasing
+            my skills as a MERN stack frontend developer. These projects
             demonstrate my ability to build dynamic, responsive web applications
             using MongoDB, Express.js, React, and Node.js.
           </p>

@@ -7,7 +7,7 @@ const Card = () => {
         <section className='flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row px-3'>
           <div className='flex flex-col justify-center sm:text-center lg:py-12 lg:px-24 lg:text-left xl:w-8/12 xl:py-24 py-24'>
             <p className='mb-3 font-semibold text-indigo-50 md:mb-4 md:text-lg xl:text-xl'>
-              Hello, I'm
+              Hello, I&apos;m
             </p>
 
             <h1 className='mb-8 text-4xl font-bold text-white md:text-5xl md:mb-12 lg:text-6xl'>
@@ -15,7 +15,7 @@ const Card = () => {
             </h1>
 
             <p className='mb-8 leading-relaxed text-gray-200 text-lg md:mb-12 lg:w-4/5 xl:text-xl'>
-              And I'm A Software Developer
+              And I&apos;m A Software Developer
             </p>
 
             <div className='flex gap-2.5 flex-row sm:justify-center lg:justify-start'>
@@ -30,7 +30,7 @@ const Card = () => {
                 href='#'
                 className='inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base'
               >
-                Let's Talk
+                Let&apos;s Talk
               </a>
             </div>
           </div>

@@ -22,7 +22,7 @@ const About = () => {
             </h2>
 
             <p className='mb-6 text-gray-500 sm:text-lg md:mb-8'>
-              I'm a fervent tech enthusiast with a talent for delving into
+              I&apos;m a fervent tech enthusiast with a talent for delving into
               cutting-edge fields and figuring out challenges issues. I have a
               solid background in Software development, but my true motivation
               is my passion to create and have a positive impact on the digital
