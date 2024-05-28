@@ -94,7 +94,7 @@ export default function Navbar () {
           <Brand />
         </div>
         <nav
-          className={`pb-5 md:text-sm ${
+          className={`pb-5 md:text-sm bg-gray-800 ${
             menuOpen
               ? 'absolute z-999 top-0 inset-x-0 bg-gray-800 rounded-xl mx-8 mt-2 md:mx-0 md:mt-0 md:relative md:bg-transparent'
               : ''
