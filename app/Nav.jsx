@@ -86,7 +86,7 @@ export default function Navbar () {
   return (
     <div className=''>
       <header
-        className={`fixed top-0 left-0 bg-gray-800 w-[96.5%] lg:w-[98.7%] h-20 z-999 transition-colors duration-300 ${
+        className={`fixed top-0 left-0 bg-gray-800 w-w-full lg:w-full h-20 z-999 transition-colors duration-300 ${
           scrolled ? 'bg-gray-800' : 'bg-transparent'
         }`}
       >
