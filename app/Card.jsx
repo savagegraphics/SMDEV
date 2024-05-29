@@ -19,19 +19,19 @@ const Card = () => {
             </p>
 
             <div className='flex gap-2.5 flex-row sm:justify-center lg:justify-start'>
-              <a
+              <Link
                 href='#'
                 className='inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base'
               >
-                Hire me
-              </a>
+                CV
+              </Link>
 
-              <a
+              <Link
                 href='#'
                 className='inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base'
               >
                 Let&apos;s Talk
-              </a>
+              </Link>
             </div>
           </div>
         </section>
