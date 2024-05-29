@@ -22,14 +22,14 @@ const About = () => {
             </h2>
 
             <p className='mb-4 text-gray-500 sm:text-lg md:mb-8 p-4'>
-              I'm a tech enthusiast with a strong software development
+              I&apos;m a tech enthusiast with a strong software development
               background, driven by a passion for innovation and
               problem-solving. I thrive on exploring cutting-edge fields and
               embracing emerging technologies, believing in their power to drive
               positive change. With a focus on creating meaningful
               contributions, I bring a blend of technical expertise and
-              strategic thinking to every project. Let's collaborate and push
-              boundaries together to shape the future through technology.
+              strategic thinking to every project. Let&apos;s collaborate and
+              push boundaries together to shape the future through technology.
             </p>
           </div>
         </div>
