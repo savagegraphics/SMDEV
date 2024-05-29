@@ -101,12 +101,12 @@ export default function Navbar () {
 
   return (
     <div>
-      <header className='fixed top-0 left-0 bg-gray-800 w-full h-20 z-50'>
+      <header className='fixed top-0 left-0 bg-gray-800 w-full h-16 z-50'>
         <nav
           className={`pb-5 md:text-sm bg-gray-800 ${
             menuOpen
-              ? 'absolute z-50 top-0 inset-x-0 bg-gray-800 rounded-xl mx-8 mt-2 md:mx-0 md:mt-0 md:relative md:bg-transparent'
-              : ''
+              ? 'absolute z-50 top-0 inset-x-0 bg-gray-800 rounded-xl pb-14 pl-8 mx-8 mt-2 md:mx-0 md:mt-0 md:relative '
+              : 'h-16'
           }`}
         >
           <div className='gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8'>
