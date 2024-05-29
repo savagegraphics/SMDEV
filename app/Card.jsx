@@ -21,7 +21,7 @@ const Card = () => {
 
             <div className='flex gap-2.5 flex-row sm:justify-center lg:justify-start'>
               <Link
-                href='#'
+                href='https://drive.google.com/file/d/1KZ6kxWUipNmzplCWEEurmBVBuYNNDHv9/view?usp=drivesdk'
                 className='inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base'
               >
                 View CV
