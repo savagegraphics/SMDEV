@@ -14,7 +14,7 @@ const Footer = () => {
 
           <div className='flex gap-4'>
             <Link
-              href='#'
+              href='https://www.instagram.com/elebutesemiu?igsh=MWNhNXRiY2hiazVsdg%3D%3D&utm_source=qr'
               target='_blank'
               className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
             >
@@ -31,7 +31,7 @@ const Footer = () => {
             </Link>
 
             <Link
-              href='#'
+              href='https://x.com/elebutesemiu'
               target='_blank'
               className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
             >
@@ -48,7 +48,7 @@ const Footer = () => {
             </Link>
 
             <Link
-              href='#'
+              href='http://www.linkedin.com/in/semiu-elebute-027851b6'
               target='_blank'
               className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
             >
@@ -65,7 +65,7 @@ const Footer = () => {
             </Link>
 
             <Link
-              href='#'
+              href='https://github.com/ElebuteSemiu'
               target='_blank'
               className='text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600'
             >
