@@ -5,8 +5,8 @@ import Nav from './Nav'
 export default function Home() {
   return (
     <BackgroundImage>
-    {/* <Nav/> */}
-    <Footer/>
+    <Nav/>
+    {/* <Footer/> */}
     </BackgroundImage>
   );
 }

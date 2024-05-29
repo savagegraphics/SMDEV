@@ -37,12 +37,15 @@ export default function Navbar () {
 
   useEffect(() => {
     const handleHashChange = () => {
-      const element = document.querySelector(window.location.hash)
-      if (element) {
-        const yOffset = -navbarHeight
-        const y =
-          element.getBoundingClientRect().top + window.pageYOffset + yOffset
-        window.scrollTo({ top: y, behavior: 'smooth' })
+      const hash = window.location.hash
+      if (hash) {
+        const element = document.querySelector(hash)
+        if (element) {
+          const yOffset = -navbarHeight
+          const y =
+            element.getBoundingClientRect().top + window.pageYOffset + yOffset
+          window.scrollTo({ top: y, behavior: 'smooth' })
+        }
       }
     }
     window.addEventListener('hashchange', handleHashChange)
@@ -116,8 +119,8 @@ export default function Navbar () {
               <ul className='flex-1 justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0'>
                 {navigation.map((item, idx) => (
                   <li key={idx} className='text-gray-300 hover:text-gray-400'>
-                    <Link href={item.path} className='block'>
-                      {item.title}
+                    <Link href={item.path}>
+                      <p className='block'>{item.title}</p>
                     </Link>
                   </li>
                 ))}
