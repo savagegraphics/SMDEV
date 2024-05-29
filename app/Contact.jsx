@@ -144,7 +144,7 @@ const Contact = () => {
               {state.succeeded && (
                 <div className='mt-3 text-center'>
                   <p className='text-sm text-gray-500'>
-                    Thanks for contacting us! We'll get back to you soon.
+                    Thanks for contacting us! We&apos;ll get back to you soon.
                   </p>
                 </div>
               )}
