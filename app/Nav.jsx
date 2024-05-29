@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react'
+import Link from 'next/link'
 import Card from './Card'
 import About from './About'
 import FeatureCard from './FeatureCard'
@@ -20,7 +21,7 @@ export default function Navbar () {
     { title: 'Skills', path: '#skill' },
     { title: 'Contact', path: '#contact' },
     { title: 'FAQ', path: '#faq' },
-    { title: 'Projects', path: '#collection' },
+    { title: 'Collection', path: '#collection' },
     { title: 'Footer', path: '#footer' }
   ]
 
@@ -51,11 +52,11 @@ export default function Navbar () {
 
   const Brand = () => (
     <div className='flex items-center justify-between py-5 md:block mx-4'>
-      <a href='/' className='text-xl text-white font-semibold'>
+      <Link href='/' className='text-xl text-white font-semibold'>
         <p>
           Semiu<span className='text-blue-500'>Tech.</span>
         </p>
-      </a>
+      </Link>
       <div className='md:hidden'>
         <button
           className='menu-btn text-gray-400 hover:text-gray-300'
@@ -97,14 +98,11 @@ export default function Navbar () {
 
   return (
     <div>
-      <header className='fixed top-0 left-0 bg-gray-800 w-full h-20 z-999 transition-colors duration-300'>
-        <div className={`md:hidden ${menuOpen ? 'mx-2 pb-5' : 'hidden'}`}>
-          <Brand />
-        </div>
+      <header className='fixed top-0 left-0 bg-gray-800 w-full h-20 z-50'>
         <nav
           className={`pb-5 md:text-sm bg-gray-800 ${
             menuOpen
-              ? 'absolute z-999 top-0 inset-x-0 bg-gray-800 rounded-xl mx-8 mt-2 md:mx-0 md:mt-0 md:relative md:bg-transparent'
+              ? 'absolute z-50 top-0 inset-x-0 bg-gray-800 rounded-xl mx-8 mt-2 md:mx-0 md:mt-0 md:relative md:bg-transparent'
               : ''
           }`}
         >
@@ -118,9 +116,9 @@ export default function Navbar () {
               <ul className='flex-1 justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0'>
                 {navigation.map((item, idx) => (
                   <li key={idx} className='text-gray-300 hover:text-gray-400'>
-                    <a href={item.path} className='block'>
+                    <Link href={item.path} className='block'>
                       {item.title}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -128,31 +126,31 @@ export default function Navbar () {
           </div>
         </nav>
       </header>
-      <div className='pt-16 bg-[#2d383c96]'>
-        <section id='card'>
+      <div className='pt-20 bg-[#2d383c96] h-full'>
+        <div id='card'>
           <Card />
-        </section>
-        <section id='about'>
+        </div>
+        <div id='about'>
           <About />
-        </section>
-        <section id='skill'>
+        </div>
+        <div id='skill'>
           <Skill />
-        </section>
-        <section id='featureCard'>
+        </div>
+        <div id='featureCard'>
           <FeatureCard />
-        </section>
-        <section id='collection'>
+        </div>
+        <div id='collection'>
           <Collection />
-        </section>
-        <section id='faq'>
+        </div>
+        <div id='faq'>
           <FAQ />
-        </section>
-        <section id='contact'>
+        </div>
+        <div id='contact'>
           <Contact />
-        </section>
-        <section id='footer'>
+        </div>
+        <div id='footer'>
           <Footer />
-        </section>
+        </div>
       </div>
     </div>
   )
