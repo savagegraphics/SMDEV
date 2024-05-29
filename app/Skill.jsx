@@ -7,12 +7,16 @@ const Skill = () => {
         <section className='flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row lg:ml-12'>
           <div className='flex flex-col items-center mt-12 justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24'>
             <h1 className='mb-8 text-md font-bold text-black md:mb-12 md:text-xl'>
-              My creative skills & experiences.
+              Creative Skills & Experiences
             </h1>
 
-            <p className='mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg'>
-              With a passion of innovation and creativity, i bring a unique
-              contribution of skills and experiences to the table.
+            <p className='mb-8 leading-relaxed p-4 text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg'>
+              With a passion for innovation and creativity, I bring a diverse
+              range of skills and experiences to the table. From conceptualizing
+              innovative solutions to executing them with precision, I thrive on
+              bringing fresh perspectives to every project. My aim is to leave a
+              lasting impact and inspire others to embrace creativity and
+              change.
             </p>
           </div>
 

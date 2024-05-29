@@ -16,17 +16,20 @@ const About = () => {
             </div>
           </div>
 
-          <div className='md:pt-8 lg:mt-36'>
+          <div className='md:pt-8 lg:mt-20'>
             <h2 className='mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left'>
               About Me
             </h2>
 
-            <p className='mb-6 text-gray-500 sm:text-lg md:mb-8'>
-              I&apos;m a fervent tech enthusiast with a talent for delving into
-              cutting-edge fields and figuring out challenges issues. I have a
-              solid background in Software development, but my true motivation
-              is my passion to create and have a positive impact on the digital
-              world and beyond.
+            <p className='mb-4 text-gray-500 sm:text-lg md:mb-8 p-4'>
+              I'm a tech enthusiast with a strong software development
+              background, driven by a passion for innovation and
+              problem-solving. I thrive on exploring cutting-edge fields and
+              embracing emerging technologies, believing in their power to drive
+              positive change. With a focus on creating meaningful
+              contributions, I bring a blend of technical expertise and
+              strategic thinking to every project. Let's collaborate and push
+              boundaries together to shape the future through technology.
             </p>
           </div>
         </div>
