@@ -5,7 +5,7 @@ const Skill = () => {
     <div className='bg-white pb-6 sm:pb-8 lg:pb-12'>
       <div className='mx-auto max-w-screen-2xl px-4 md:px-8'>
         <section className='flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row lg:ml-12'>
-          <div className='flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24'>
+          <div className='flex flex-col items-center mt-12 justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24'>
             <h1 className='mb-8 text-md font-bold text-black md:mb-12 md:text-xl'>
               My creative skills & experiences.
             </h1>
@@ -16,7 +16,7 @@ const Skill = () => {
             </p>
           </div>
 
-          <div className='overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto'>
+          <div className='overflow-hidden rounded-lg lg:mt-24 mt-12 bg-gray-100 shadow-lg lg:h-auto'>
             <div className='px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto'>
               <div className='w-full mx-auto text-center mb-6'>
                 <h2 className='text-xl font-semibold text-gray-800'>

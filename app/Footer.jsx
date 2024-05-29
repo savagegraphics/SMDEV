@@ -3,21 +3,12 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='bg-white pt-4 sm:pt-10 lg:pt-12'>
-      <footer className='mx-auto max-w-screen-2xl px-4 md:px-8'>
+      <footer className='mx-auto mt-12 max-w-screen-2xl px-4 md:px-8'>
         <div className='flex flex-col items-center justify-between gap-4 border-t border-b py-6 md:flex-row'>
           <nav className='flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6'>
-            <a
-              href='#'
-              className='text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600'
-            >
-              About
-            </a>
-            <a
-              href='#'
-              className='text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600'
-            >
-              Blog
-            </a>
+            <p className='text-xl text-gray-700 font-medium'>
+              Semiu<span className='text-blue-500'>Tech.</span>
+            </p>
           </nav>
 
           <div className='flex gap-4'>

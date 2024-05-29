@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className='pb-6 sm:pb-8 lg:pb-12 lg:h-[80vh] h-[68vh]'>
+    <div className='pb-6 mt-12 sm:pb-8 lg:pb-12 lg:h-[80vh] h-[68vh]'>
       <div className='mx-auto max-w-screen-2xl px-4 md:px-8'>
         <section className='flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row px-3'>
           <div className='flex flex-col justify-center sm:text-center lg:py-12 lg:px-24 lg:text-left xl:w-8/12 xl:py-24 py-24'>

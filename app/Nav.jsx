@@ -11,30 +11,42 @@ import Skill from './Skill'
 
 export default function Navbar () {
   const [menuOpen, setMenuOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const navbarHeight = 80 // Adjust this value based on your navbar height in pixels
 
   const navigation = [
-    { title: 'Home', path: '/' },
-    { title: 'About', path: '/' },
-    { title: 'Services', path: '/' },
-    { title: 'Skills', path: '/' },
-    { title: 'Contact', path: '/' }
+    { title: 'Home', path: '#card' },
+    { title: 'About', path: '#about' },
+    { title: 'Services', path: '#featureCard' },
+    { title: 'Skills', path: '#skill' },
+    { title: 'Contact', path: '#contact' },
+    { title: 'FAQ', path: '#faq' },
+    { title: 'Projects', path: '#collection' },
+    { title: 'Footer', path: '#footer' }
   ]
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 0)
+    const handleClickOutside = e => {
+      if (!e.target.closest('.menu-btn')) {
+        setMenuOpen(false)
+      }
     }
-
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    document.addEventListener('click', handleClickOutside)
+    return () => document.removeEventListener('click', handleClickOutside)
   }, [])
 
   useEffect(() => {
-    document.onclick = e => {
-      const target = e.target
-      if (!target.closest('.menu-btn')) setMenuOpen(false)
+    const handleHashChange = () => {
+      const element = document.querySelector(window.location.hash)
+      if (element) {
+        const yOffset = -navbarHeight
+        const y =
+          element.getBoundingClientRect().top + window.pageYOffset + yOffset
+        window.scrollTo({ top: y, behavior: 'smooth' })
+      }
     }
+    window.addEventListener('hashchange', handleHashChange)
+    handleHashChange() // handle the initial hash
+    return () => window.removeEventListener('hashchange', handleHashChange)
   }, [])
 
   const Brand = () => (
@@ -84,12 +96,8 @@ export default function Navbar () {
   )
 
   return (
-    <div className=''>
-      <header
-        className={`fixed top-0 left-0 bg-gray-800 w-full lg:w-full h-20 z-999 transition-colors duration-300 ${
-          scrolled ? 'bg-gray-800' : 'bg-transparent'
-        }`}
-      >
+    <div>
+      <header className='fixed top-0 left-0 bg-gray-800 w-full h-20 z-999 transition-colors duration-300'>
         <div className={`md:hidden ${menuOpen ? 'mx-2 pb-5' : 'hidden'}`}>
           <Brand />
         </div>
@@ -105,7 +113,7 @@ export default function Navbar () {
             <div
               className={`flex-1 items-center mt-8 md:mt-0 md:flex ${
                 menuOpen ? 'block' : 'hidden'
-              } `}
+              }`}
             >
               <ul className='flex-1 justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0'>
                 {navigation.map((item, idx) => (
@@ -120,17 +128,31 @@ export default function Navbar () {
           </div>
         </nav>
       </header>
-      <div className='pt-16 bg-[#2d383c96] h-[100vh]'>
-        <Card />
-        <About />
-        <Skill />
-        <FeatureCard />
-        <Collection />
-        <FAQ />
-        <Contact />
-        <Footer />
-        {/* Add padding to compensate for the fixed navbar */}
-        {/* Your page content here */}
+      <div className='pt-16 bg-[#2d383c96]'>
+        <section id='card'>
+          <Card />
+        </section>
+        <section id='about'>
+          <About />
+        </section>
+        <section id='skill'>
+          <Skill />
+        </section>
+        <section id='featureCard'>
+          <FeatureCard />
+        </section>
+        <section id='collection'>
+          <Collection />
+        </section>
+        <section id='faq'>
+          <FAQ />
+        </section>
+        <section id='contact'>
+          <Contact />
+        </section>
+        <section id='footer'>
+          <Footer />
+        </section>
       </div>
     </div>
   )
